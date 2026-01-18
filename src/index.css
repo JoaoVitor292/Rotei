@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+
+/* Aqui você pode adicionar estilos custom se quiser */
+/* Exemplo: reset ou fontes globais */
+@layer base {
+  body {
+    margin: 0;
+    font-family:
+      system-ui,
+      -apple-system,
+      sans-serif;
+  }
+}
+
+/* Se precisar de custom utilities ou themes, usa @utility ou @theme aqui */
